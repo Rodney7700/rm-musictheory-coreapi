@@ -1,0 +1,20 @@
+{
+  "name": "musictheory-coreapi",
+  "version": "1.0.0",
+  "description": "Music Theory Server",
+  "main": "musictheory-coreapi.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon musictheory-coreapi.mjs"
+  },
+  "author": "Rod Martin",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
